@@ -10,7 +10,6 @@ var findLengthOfLCIS = function(nums) {
         if(nums[i]<nums[i+1]){
             count++
             if(count>mainCount){
-                console.log(`Compare : ${nums[i]} && ${nums[i+1]} and Count ${count}` )
                 mainCount = count
             }
         }else count = 0
