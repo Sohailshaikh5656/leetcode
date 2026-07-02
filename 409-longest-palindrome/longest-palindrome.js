@@ -14,7 +14,6 @@ var longestPalindrome = function(s) {
 
     let count = 0
     let odd = false
-    console.log(object)
     for(let key in object){
         if(object[key]%2===0) {
             count += object[key]
